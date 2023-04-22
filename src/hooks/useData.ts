@@ -4,8 +4,8 @@ import apiClient from "../services/api-client";
 
 
 
-interface FetchResponse<T> {
-    count: number;
+export interface FetchResponse<T> {
+   count: number;
     results: T[];
 }
 
